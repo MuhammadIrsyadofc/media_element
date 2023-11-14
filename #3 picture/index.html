@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>picture</title>
+    <style>
+        body{
+            font-family: sans-serif;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.125rem;
+            line-height: 1.6;
+            color: #333;
+            padding: 2rem;
+        }
+        .hero{
+            display: grid;
+            grid-gap: 2em;
+            align-items: center;
+        }
+        img{
+            max-width: 100%;
+            height: auto;
+        }
+        @media (min-width: 960px){
+            .hero{
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    </style>
+<body>
+<div class="hero">
+    <div class="hero-text">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus in repellendus quam tempora nemo, odio itaque animi rem velit voluptates cum recusandae, blanditiis laudantium unde ab, nesciunt voluptatem ipsum voluptatum magni obcaecati vero quas error aut earum? Recusandae rem enim officia ex maxime deserunt quo, doloremque expedita? Deleniti, cum qui?</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem dolorem doloremque nisi perspiciatis quam earum dicta dolore iste tenetur! Quisquam fuga, libero earum eaque sequi magni, impedit velit consequuntur, dicta necessitatibus fugit cumque? Animi quam dicta maiores soluta repudiandae, totam voluptatum enim hic porro dolores est optio numquam voluptate dignissimos dolorem et a sed? Commodi eveniet ab esse in accusantium, tempore inventore vel fugiat cupiditate?</p>
+    </div>
+    <picture>
+        <img src="img/1.jpg" alt="" width="350px">
+    </picture>
+    
+
+
+    
+</div>
+</body>
+</html>
